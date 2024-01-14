@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+a {
+    color: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: none;
+    padding: .5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     display: grid;
 
@@ -44,18 +57,7 @@ nav {
 
 }
 
-a {
-    color: whitesmoke;
-    text-align: center;
-    font-size: xx-large;
-    text-decoration: none;
-    padding: .5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-a:hover {
-    text-decoration: underline;
-}
 
 h2 {
     text-align: center;
@@ -80,8 +82,6 @@ ul {
     text-align: center;
 }
 
-li {
-    text-decoration: none;
+footer {
     text-align: center;
-
 }

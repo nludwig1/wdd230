@@ -1,0 +1,81 @@
+/* importing a font for me to use */
+@import url(https://fonts.googleapis.com/css2?family=Salsa&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+
+
+}
+
+header {
+    background-color: #006eb6;
+    color: white;
+    display: grid;
+
+}
+
+img {
+    width: 175px;
+
+    display: block;
+    padding: 15px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: salsa;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav {
+
+    background-color: black;
+    display: grid;
+
+}
+
+a {
+    color: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: none;
+    padding: .5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    background-color: #006eb6;
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    text-decoration: underline;
+    font-size: larger;
+    font-family: salsa;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    text-align: center;
+
+}

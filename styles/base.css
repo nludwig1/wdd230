@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-a {
+#nav1 {
     color: whitesmoke;
     text-align: center;
     font-size: xx-large;
@@ -55,6 +55,7 @@ nav {
     background-color: black;
     display: grid;
 
+
 }
 
 
@@ -84,4 +85,8 @@ ul {
 
 footer {
     text-align: center;
+}
+
+li {
+    text-decoration: none;
 }

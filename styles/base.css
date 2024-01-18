@@ -84,13 +84,13 @@ ul li {
     list-style-position: inside;
 }
 
-#lesson-link {
+.lesson-link {
     text-decoration: none;
     color: black;
 
 }
 
-#lesson-link:hover {
+.lesson-link:hover {
     text-decoration: underline;
 }
 

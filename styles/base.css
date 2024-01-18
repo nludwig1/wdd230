@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-#nav1 {
+.nav1 {
     color: whitesmoke;
     text-align: center;
     font-size: xx-large;
@@ -14,7 +14,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#nav1:hover {
+.nav1:hover {
     text-decoration: underline;
 }
 

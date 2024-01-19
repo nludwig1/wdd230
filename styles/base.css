@@ -15,6 +15,10 @@
     text-decoration: underline;
 }
 
+li {
+    list-style-type: none;
+}
+
 body {
     display: grid;
 
@@ -59,6 +63,7 @@ nav {
 
 h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 h3 {

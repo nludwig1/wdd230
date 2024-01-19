@@ -1,18 +1,42 @@
-@media screen and (min-width: 500px) {
+/* Larger View */
+@media screen and (min-width: 640px) {
     header {
         display: flex;
+        justify-content: center;
 
     }
 
     nav {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h2 {
+
         display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+
+    .lessonNav {
+        display: inline-block;
+        width: 50%;
+
 
     }
+
+    .infoCard {
+        display: inline-block;
+
+    }
+
+
+
+
 
 
 }

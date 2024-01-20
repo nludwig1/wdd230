@@ -3,18 +3,48 @@ header {
     color: white;
     background-color: navy;
     font-size: large;
+    display: flex;
+    justify-content: center;
 }
 
-body {
+main {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
 }
 
 .proximity {
-    background-color: gray;
+    background-color: rgb(216, 213, 213);
     align-items: center;
+    grid-column: span 1;
+    text-align: center;
+    padding: 1rem;
 
+}
+
+.ruleThirds {
+    grid-column: span 1;
+    background-color: rgb(216, 213, 213);
+    text-align: center;
+    padding: 1rem;
+}
+
+.whiteSpace {
+    grid-column: span 1;
+    text-align: center;
+    background-color: rgb(216, 213, 213);
+    padding: 1rem;
+}
+
+.thirdsImage {
+    width: 400px;
 }
 
 .proxImage {
     width: 300px;
+}
+
+.whtSpaceImage {
+    width: 300px;
+
 }

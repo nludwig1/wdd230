@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+    color: white;
+    background-color: navy;
+    font-size: large;
+}
+
+body {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proximity {
+    background-color: gray;
+    align-items: center;
+
+}
+
+.proxImage {
+    width: 300px;
+}

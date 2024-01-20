@@ -82,7 +82,7 @@ main {
 
 ul li {
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
 
@@ -95,6 +95,7 @@ ul li {
 .lesson-link:hover {
     text-decoration: underline;
 }
+
 
 footer {
     text-align: center;

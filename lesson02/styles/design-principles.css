@@ -5,12 +5,13 @@ header {
     font-size: large;
     display: flex;
     justify-content: center;
+    column-span: all;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5%;
+    column-gap: 20px;
 }
 
 footer {
@@ -30,8 +31,19 @@ footer {
 
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a {
     padding: 5rem;
+    font-family: rubik;
+    text-decoration: none;
+
+}
+
+h2 {
+    font-family: rubik;
 }
 
 .ruleThirds {
@@ -50,13 +62,54 @@ a {
 
 .thirdsImage {
     width: 400px;
+    padding-top: 1rem;
 }
 
 .proxImage {
     width: 300px;
+    padding-top: 1rem;
 }
 
 .whtSpaceImage {
     width: 300px;
+    padding-top: 1rem;
+
+}
+
+/*media queries*/
+/*phone*/
+@media screen and (max-width:660px) {
+
+
+    main {
+        max-width: 646px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    section {
+
+        text-align: center;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width:661px) and (max-width:1024px) {
+
+
+    main {
+        max-width: 850px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    section {
+        align-items: center;
+    }
+
 
 }

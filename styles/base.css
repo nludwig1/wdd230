@@ -60,7 +60,6 @@ nav {
 }
 
 
-
 h2 {
     text-align: center;
     text-decoration: underline;
@@ -99,4 +98,47 @@ ul li {
 
 footer {
     text-align: center;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 3px 7px 6px;
+    background-color: #eee;
+    color: #000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+
+/*.navigation a {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}*/
+
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 3px 7px 6px;
+    background-color: #eee;
+    color: #000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.open a {
+    display: block;
 }

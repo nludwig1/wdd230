@@ -17,3 +17,10 @@ function updateFooter(lastModified, currentYear) {
 updateFooter(lastModified(), currentYear());
 //var modify = document.lastModified;
 //document.getElementById("lastModify").innerHTML = modify;
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+
+hamButton.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    hamButton.classList.toggle('open');
+});

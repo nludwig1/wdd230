@@ -18,6 +18,27 @@
         text-decoration: underline;
     }
 
+    /*nav {
+
+        background-color: black;
+        display: grid;
+
+
+    }*/
+
+    .nav1 {
+        color: whitesmoke;
+        text-align: center;
+        font-size: xx-large;
+        text-decoration: none;
+        padding: .5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nav1:hover {
+        text-decoration: underline;
+    }
+
     .lessonNav {
         display: inline-block;
         width: 50%;
@@ -29,6 +50,11 @@
         display: inline-block;
 
 
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
     }
 
     #menu {

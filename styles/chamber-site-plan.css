@@ -79,3 +79,7 @@ p {
 .accent2 {
     background-color: var(--accent2-color);
 }
+
+img {
+    width: 750px;
+}

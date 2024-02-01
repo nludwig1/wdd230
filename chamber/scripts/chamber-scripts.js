@@ -11,14 +11,14 @@ function currentYear() {
 function updateFooter(lastModified, currentYear) {
     const doc = document;
     doc.querySelector('#lastModified').textContent = `Last Modified ${lastModified}`
-    doc.querySelector('#year').textContent = `©${currentYear} - Nathan Ludwig, United States`
+    //doc.querySelector('#year').textContent = `©${currentYear} - Nathan Ludwig, United States`
 }
 
 updateFooter(lastModified(), currentYear());
 //var modify = document.lastModified;
 //document.getElementById("lastModify").innerHTML = modify;
 const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
+const navigation = document.querySelector('.navBar');
 
 hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');

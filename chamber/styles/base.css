@@ -1,0 +1,13 @@
+footer {
+    border-top: 5px solid #ffaa00;
+    background-color: #434040;
+    color: white;
+    text-align: center;
+}
+
+header {
+    border-bottom: 5px solid #ffaa00;
+    background-color: #434040;
+    color: white;
+
+}

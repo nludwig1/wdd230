@@ -20,10 +20,17 @@ h1 {
 
 .navBar a {
     display: none;
+    font-size: xx-large;
     padding: 1rem;
-    text-align: center;
+    text-align: right;
+    justify-content: center;
     text-decoration: none;
     color: #000;
+    border: 1px solid black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #menu::before {
@@ -57,31 +64,34 @@ h1 {
 .callAction {
     background-color: gray;
     color: white;
-    text-align: center;
+    text-align: right;
     justify-content: center;
     border: 3px solid white;
+    padding-right: .5rem;
 }
 
 .currentEvent {
     text-align: right;
-    padding-right: 5px;
+    padding-right: .5rem;
 }
 
 .weatherCard {
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: right;
     background-color: gray;
     color: white;
+    padding-right: .5rem;
 }
 
 .spotlight {
-    text-align: left;
+    text-align: right;
     padding-left: 5px;
+    padding-right: .5rem;
 }
 
 img {
-    width: 175px;
+    width: 100px;
     float: left;
 
     padding: 15px;

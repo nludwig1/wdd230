@@ -24,3 +24,8 @@ hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
     hamButton.classList.toggle('open');
 });
+
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

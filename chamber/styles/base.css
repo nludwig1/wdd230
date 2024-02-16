@@ -100,6 +100,11 @@ img {
 
 }
 
+.heroImg img {
+    width: 100%;
+    height: auto;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -171,4 +176,5 @@ input:checked+.slider:before {
         background-color: #000;
         color: white;
     }
+
 }

@@ -26,6 +26,8 @@ hamButton.addEventListener('click', () => {
 });
 
 function darkMode() {
-    var element = document.body;
+    var element = document.getElementById("main");
     element.classList.toggle("dark-mode");
+    var navBar = document.getElementById("navigation");
+    navBar.classList.toggle("dark-mode");
 }

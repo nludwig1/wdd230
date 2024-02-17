@@ -55,8 +55,11 @@
             <p>Service Project: April 2nd, 2024</p>
         </section>
         <section class="weatherCard">
-            <h2>Weather</h2>
-            <p>Weather</p>
+            <h2>Windchill</h2>
+            <input type="number" id="temperature"> Temperature
+            <input type="number" id="windSpeed"> Wind Speed
+            <button type="button" id="button" onclick="calculateWindChill()"> Calculate Windchill</button>
+            <p id="windChill"></p>
         </section>
         <section class="spotlight">
             <h2>Spotlights</h2>
@@ -77,6 +80,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/chamber-scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 
 </body>
 

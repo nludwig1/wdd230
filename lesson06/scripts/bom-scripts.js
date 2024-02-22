@@ -1,7 +1,7 @@
 const input = document.querySelector('#favchap');
 const addChapter = document.querySelector('button');
 const list = document.querySelector('#list');
-const chaptersArray = getChapterList() || [];
+let chaptersArray = getChapterList() || [];
 chaptersArray.forEach(input => { displayList(input) });
 
 
@@ -21,8 +21,8 @@ addChapter.addEventListener('click',
 function displayList(item) {
     //function (item) {
     // if (input != "") {
-    const li = document.createElement('li');
-    const deleteButton = document.createElement('button');
+    var li = document.createElement('li');
+    var deleteButton = document.createElement('button');
     li.textContent = item;
     deleteButton.textContent = '❌'
     deleteButton.classList.add('delete');
@@ -49,7 +49,7 @@ function getChapterList() {
 };
 function deleteChapter(chapter) {
     chapter = chapter.slice(0, chapter.length - 1);
-    chaptersArray = chaptersArray.filter((item) => item !== chapter);
+    chaptersArray = chaptersArray.filter(item => item !== chapter);
     setChapterList();
 
 };

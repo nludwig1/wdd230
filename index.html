@@ -76,15 +76,16 @@
         </section>
         <section class="infoCard">
             <h3>Information</h3>
-            <ul>
-                <li>Weather</li>
-                <li>Number of Page visits</li>
-            </ul>
+
+            <span>Weather</span><br>
+            <span class="label">Number of Page visits: </span><span class="visits"></span>
+
         </section>
 
     </main>
     <iframe width="300" height="225" style="border:0" loading="lazy" allowfullscreen
-        referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/place/Eagle+Mountain,+UT/">
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/place/Eagle+Mountain,+UT/@40.313868,-112.0037605,12z/data=!3m1!4b1!4m6!3m5!1s0x874d796f771b5103:0xbd43fbe76b5b8553!8m2!3d40.3141169!4d-112.006882!16zL20vMDEwZ3Ey?entry=ttu">
     </iframe>
     <footer>
         <p id="year">
@@ -92,6 +93,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/siteVisits.js"></script>
 </body>
 
 </html>
